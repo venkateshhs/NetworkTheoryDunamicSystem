@@ -1,0 +1,12 @@
+Nash Equilibria In network
+https://www.hackmath.net/en/calculator/solving-system-of-linear-equations
+a+b+c = 1000
+10+5a+0.1a=10+0.01b+5(b+c)
+10+0.01b+5(b+c)=c+10+5(b+c)
+a>0
+b>0
+c>0
+
+
+
+

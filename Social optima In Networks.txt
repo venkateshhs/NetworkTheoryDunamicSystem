@@ -1,0 +1,26 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+         double min_value=10000000;
+         int min_a=-1,min_b=-1,min_c=-1;
+         for(int a=0 ;a<=1000;a++)
+            for(int b=0;b<=1000-a;b++){
+                int c=1000-a-b;
+                double t_route1 =((double)a+b)/100 +20+5;
+                double t_route2 =((double)a+b)/100 +10 +((double)b+c)/100;
+                double t_route3 =((double)c+b)/100 +10+20;
+                
+                double total=a*t_route1 +b*t_route2 +c*t_route3 ;
+                if(total <min_value){
+                    min_a=a;
+                    min_b=b;
+                    min_c=c;
+                    min_value=total;
+                }
+            } 
+        System.out.println(min_value);
+        System.out.println(min_a);
+        System.out.println(min_b);
+        System.out.println(min_c);
+     }
+}
